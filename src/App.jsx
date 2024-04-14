@@ -5,6 +5,8 @@ import BoxColor from "./components/BoxColor/BoxColor";
 import CreditCard from "./components/CreditCard/CreditCard";
 import Rating from "./components/Rating/Rating";
 import DriverCard from "./components/DriverCard/DriverCard";
+import LikeButton from "./components/LikeButton/LikeButton";
+import ClickablePicture from "./components/ClickablePicture/ClickablePicture";
 
 
 function App() {
@@ -105,6 +107,15 @@ function App() {
         }}
       />
 
+      <h1>Iteration 8</h1>
+        <LikeButton />
+
+      <h1>Iteration 9</h1>
+      <ClickablePicture picture="https://randomuser.me/api/portraits/men/44.jpg" imgClicked="src\assets\images\glasses.png" />
+
+      <h1>Iteration 9</h1>
+      
+      
     </div>
   );
 }
